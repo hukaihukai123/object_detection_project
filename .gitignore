@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset
+data/
+*.tar
+*.tar.gz
+
+# Model checkpoints
+*.pth
+*.pt
+outputs/**/checkpoints/
+
+# Temporary visualization outputs
+outputs/prediction_visualizations/
+
+# IDE and system
+.vscode/
+.DS_Store
+Thumbs.db
+
+data/
+.venv/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.tar
+*.tar.gz
+outputs/**/checkpoints/
+outputs/prediction_visualizations/
+.vscode/
